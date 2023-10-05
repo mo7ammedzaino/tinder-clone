@@ -1,0 +1,34 @@
+.swipe-buttons {
+  position: fixed;
+  bottom: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.swipe-buttons__icon {
+  padding: 1.4vh;
+  font-size: 2.2rem;
+  background-color: #fff;
+  box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.swipe-buttons__icon:hover {
+  background-color: rgb(247, 244, 244);
+}
+.replay {
+  color: #f5b748;
+}
+.close {
+  color: #ec5e6f;
+}
+.starRate {
+  color: #62b4f9;
+}
+.favorite {
+  color: #76e2b3;
+}
+.flashOn {
+  color: #915dd1;
+}

@@ -1,0 +1,35 @@
+.chat {
+  align-items: center;
+  border-bottom: 1px solid #f5f5f5;
+  cursor: pointer;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  padding: 10px 20px;
+  transition: all 0.4s;
+}
+.chat:hover {
+  background-color: #eee;
+}
+.chat__avatar {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.chat__details {
+  flex: 1;
+}
+.chat__name {
+  font-size: 20px;
+}
+.chat__message {
+  color: grey;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.chat__timestamp {
+  color: #d3d3d3;
+  font-size: 12px;
+}

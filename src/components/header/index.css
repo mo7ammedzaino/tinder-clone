@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f9f9f9;
+  padding: 5px 10px;
+}
+.header__logo {
+  height: 3.15rem;
+  object-fit: contain;
+  padding: 5px;
+  border-radius: 50%;
+  transition: all 0.4s;
+}
+.header__icon {
+  padding: 12px;
+  font-size: 1.5rem;
+  color: gray;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: all 0.4s;
+}
+.header__icon:hover,
+.header__logo:hover {
+  background-color: rgb(247, 244, 244);
+}
